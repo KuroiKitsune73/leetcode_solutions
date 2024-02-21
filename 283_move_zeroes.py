@@ -16,6 +16,6 @@ class Solution(object):
                 arr_temp.append(0)
             else:
                 i += 1
-                
-        nums.extend(arr_temp) #add zeroes in the end of nums
+        #add zeroes in the end of nums        
+        nums.extend(arr_temp) 
         #return nums (optional)
